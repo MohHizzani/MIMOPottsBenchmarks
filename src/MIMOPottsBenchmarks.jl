@@ -1,0 +1,3 @@
+module MIMOPottsBenchmarks
+
+end
