@@ -183,6 +183,12 @@ path = "/Data/pgi-15/hizzani/Code/MIMOPotts.jl"
 uuid = "64b6a0a9-8f03-4c94-9d57-3a75f8dc1555"
 version = "0.1.0"
 
+    [deps.MIMOPotts.extensions]
+    MIMOPottsCUDAExt = "CUDA"
+
+    [deps.MIMOPotts.weakdeps]
+    CUDA = "052768ef-5323-5732-b1bb-66c8b64840ba"
+
 [[deps.MacroTools]]
 git-tree-sha1 = "1e0228a030642014fe5cfe68c2c0a818f9e3f522"
 uuid = "1914dd2f-81c6-5fcd-8719-6d5c9610ff09"
