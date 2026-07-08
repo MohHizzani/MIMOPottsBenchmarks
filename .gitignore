@@ -1,3 +1,4 @@
 /.julia/
 /results/*.jld2
 /data/
+/results/
